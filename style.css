@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+body {
+  background-color: rgb(252, 252, 252) !important;
+}
 h1,
 h2,
 h3 {
@@ -45,15 +48,15 @@ p.fontWL {
   border: none !important;
 }
 .footer {
-  background-color: #72634f;
-  color: #fae9d3;
+  background-color: #fae9d3;
+  color: #72634f;
 }
 .list-footer > h5 {
   font-weight: bold;
   margin-bottom: 30px;
 }
 .list-footer > a {
-  color: #fae9d3 !important;
+  color: #72634f !important;
   display: flex;
   flex-direction: column;
   text-decoration: none;
@@ -66,7 +69,7 @@ p.fontWL {
   color: #ffb74d !important;
 }
 .list-footer i {
-  color: #fae9d3;
+  color: #72634f;
   padding: 0 5px;
 }
 .list-footer i:hover {
